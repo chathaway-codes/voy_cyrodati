@@ -1,0 +1,5 @@
+python/
+.vagrant/
+*.log
+nodesource_setup.sh
+*.pyc
