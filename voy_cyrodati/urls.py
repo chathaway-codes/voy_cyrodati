@@ -16,6 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from voy_cyrodati.views import HomePageView
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+
+    url(r'^$', HomePageView.as_view(), name='home'),
 ]
